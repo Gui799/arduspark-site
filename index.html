@@ -128,7 +128,7 @@
         <div class="CartaoDoMenbro">
             <button class="botaomenbro" onclick="InfoMenbro('InfoRebeca')">🎨Rebeca</button>
 
-            <div id="InfoRebeca" class="container-detalhe" style="display: none;"></div>
+            <div id="InfoRebeca" class="container-detalhe" style="display: none;">
                 <img src="https://cdn-icons-png.flaticon.com/512/9706/9706583.png" alt="fotorebeca" class="fotoperfil">
                 <p><strong>Função:</strong>Mídia e Identidade Visual</p>
                 <p>Contribuindo diretamente para a criação e desenvolvimento da identidade visual da empresa.</p>
@@ -139,7 +139,7 @@
         <div class="CartaoDoMenbro"> #Alane
             <button class="botaomenbro" onclick="InfoMenbro('InfoAlane')">📈 Alane</button>
 
-            <div id="InfoAlane" class="container-detalhe" style="display: none;"></div>
+            <div id="InfoAlane" class="container-detalhe" style="display: none;">
                 <img src="https://cdn-icons-png.flaticon.com/512/9706/9706583.png" alt="fotoalane" class="fotoperfil">
                 <p><strong>Função:</strong>Marketing</p>
                 <p>Contribuindo para a divulgação e o crescimento da empresa no mercado.</p>
@@ -150,7 +150,7 @@
         <div class="CartaoDoMenbro">
             <button class="botaomenbro" onclick="InfoMenbro('InfoKalyne')">🤖 Kalyne</button>
 
-            <div id="InfoKalyne" class="container-detalhe" style="display: none;"></div>
+            <div id="InfoKalyne" class="container-detalhe" style="display: none;">
                 <img src="https://cdn-icons-png.flaticon.com/512/9706/9706583.png" alt="fotokalyne" class="fotoperfil">
                 <p><strong>Função:</strong>Robótica</p>
                 <p>Contribuindo no desenvolvimento e na montagem dos projetos e circuitos</p>
@@ -161,7 +161,7 @@
         <div class="CartaoDoMenbro">
             <button class="botaomenbro" onclick="InfoMenbro('InfoGuilherme')">💻 Guilherme</button>
 
-            <div id="InfoGuilherme" class="container-detalhe" style="display: none;"></div>
+            <div id="InfoGuilherme" class="container-detalhe" style="display: none;">
                 <img src="https://cdn-icons-png.flaticon.com/512/9706/9706583.png" alt="fotogui" class="fotoperfil">
                 <p><strong>Função:</strong>Desenvolvimento do Código/Sistemas</p>
                 <p>Responsável pela programação e pelo desenvolvimento dos códigos dos nossos projetos.</p>
@@ -172,7 +172,7 @@
         <div class="CartaoDoMenbro">
             <button class="botaomenbro" onclick="InfoMenbro('InfoRuan')">👥 Ruan</button>
 
-            <div id="InfoRuan" class="container-detalhe" style="display: none;"></div>
+            <div id="InfoRuan" class="container-detalhe" style="display: none;">
                 <img src="https://cdn-icons-png.flaticon.com/512/9706/9706583.png" alt="fotoruan" class="fotoperfil">
                 <p><strong>Função:</strong>Recursos Humanos (RH)</p>
                 <p>Responsável por auxiliar na organização e no desenvolvimento da equipe.</p>
@@ -182,8 +182,10 @@
         #///Código///
         <script>
                 function InfoMenbro(containerdetalhe) {
-                    let containerdetalhe = document.getElementById(containerdetalhe);
-                    if (containerdetalhe.style.display === "none"); {containerdetalhe.style.display = "block"}
+                    let detalhe = document.getElementById(containerdetalhe);
+
+                    if (detalhe.style.display === "none") {containerdetalhe.style.display = "block";}
+                        else {detalhe.style.display = "none"}
                 }
         </script>
 
