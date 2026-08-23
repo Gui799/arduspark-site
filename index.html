@@ -79,7 +79,7 @@
         margin-bottom: 16px;}
         
         .botaomenbro {
-            background-color: rgb(48, 207, 0);
+        background-color: rgb(145, 255, 112);
         color: #000;
         border: none;
         padding: 10px 15px;
@@ -92,11 +92,6 @@
         margin-top: 10px;
         cursor: pointer;
         transition: background 0.3s;}
-        
-        .btomenbrohover {
-            background-color: rgb(38, 165, 0);
-            color: #fff
-        }
 
         .fotoperfil{
             width: 100px;
@@ -110,7 +105,7 @@
 
 </head>
 <body>
-    <div class="containerdestaque">
+    <div class="containerdestaque; btomenbrohover">
         <img src="ardusparklogo.png" alt="logo">
         <h1>Site oficial da empresa</h1>
         <h2>Confira abaixo tudo sobre nós:</h2>
@@ -123,10 +118,13 @@
     <div class="container">
         <h3>Nossa equipe</h3>
         <p>A equipe da Ardu'sPark é multidisciplinar e integrada. Trabalhamos de forma colaborativa, onde cada membro assume um papel estratégico na programação, robótica, recursos humanos, marketing e mídia para dar vida aos nossos projetos</p>
-        <p><em>Clique no botão para saber mais datalhes sobre o menbro da equipe:</em></p>
+        <p><em>Clique em um dos campos abaixo para saber mais datalhes sobre o menbro da equipe:</em></p>
         
         <div class="CartaoDoMenbro">
-            <button class="botaomenbro">🎨Rebeca</button>
+            <button class="botaomenbro" onclick="InfoMenbro('InfoRebeca')">🎨Rebeca</button>
+
+            <div id="InfoRebeca" class="container-detalhe" style="display: none;"></div>
+
         </div>
 
     </div>
