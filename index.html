@@ -182,7 +182,8 @@
         #///Código///
         <script>
                 function InfoMenbro(containerdetalhe) {
-                    let containerdetalhe
+                    let containerdetalhe = document.getElementById(containerdetalhe);
+                    if (containerdetalhe.style.display === "none"); {containerdetalhe.style.display = "block"}
                 }
         </script>
 
