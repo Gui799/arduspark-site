@@ -42,6 +42,15 @@
             border-left: 4px solid #755439;
             margin-top: 20px;}
 
+        .container-detalhe {
+        background-color: #fff;
+        border: 2px dashed rgb(48, 207, 0);
+        padding: 15px;
+        margin-top: 5px;
+        border-radius: 6px;
+        text-align: center;
+        }
+
         .ladoalado{
             display: flex;
             align-items: center;
@@ -68,7 +77,35 @@
         font-size: 0.95rem;
         line-height: 1.6;
         margin-bottom: 16px;}
+        
+        .botaomenbro {
+            background-color: rgb(48, 207, 0);
+        color: #000;
+        border: none;
+        padding: 10px 15px;
+        width: 100%;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        border-radius: 6px;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: background 0.3s;}
+        
+        .btomenbrohover {
+            background-color: rgb(38, 165, 0);
+            color: #fff
+        }
 
+        .fotoperfil{
+            width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid rgb(48, 207, 0);
+        margin-bottom: 10px
+        }
     </style>
 
 </head>
@@ -85,21 +122,13 @@
     </div>
     <div class="container">
         <h3>Nossa equipe</h3>
+        <p>A equipe da Ardu'sPark é multidisciplinar e integrada. Trabalhamos de forma colaborativa, onde cada membro assume um papel estratégico na programação, robótica, recursos humanos, marketing e mídia para dar vida aos nossos projetos</p>
+        <p><em>Clique no botão para saber mais datalhes sobre o menbro da equipe:</em></p>
+        
+        <div class="CartaoDoMenbro">
+            <button class="botaomenbro">🎨Rebeca</button>
+        </div>
 
-        <h3>Rebeca</h3>
-        <p>Rebeca faz parte da área de Mídia da Ardu'sPark, contribuindo diretamente para a criação e desenvolvimento da identidade visual da empresa.</p>
-         
-        <h3>Alane</h3>
-        <p>Alane faz parte da área de Marketing da Ardu'sPark, contribuindo para a divulgação e o crescimento da empresa.</p>
-
-        <h3>Kalyne</h3>
-        <p>Kalyne faz parte da área de Robótica da Ardu'sPark, contribuindo no desenvolvimento e na montagem dos projetos.</p>
-    
-        <h3>Guilherme</h3>
-        <p>Guilherme faz parte da área de Desenvolvimento de Código da Ardu'sPark, sendo responsável pela programação e pelo desenvolvimento dos códigos dos nossos projetos.</p>
-    
-        <h3>Ruan</h3>
-        <p>uan faz parte da área de Recursos Humanos (RH) da Ardu'sPark, sendo responsável por auxiliar na organização e no desenvolvimento da equipe.</p>
     </div>
     <div class="container">
         <h2>Nossos projetos</h2>
