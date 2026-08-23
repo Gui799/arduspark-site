@@ -136,7 +136,7 @@
         </div>
 
         <!-- ALANE -->
-        <div class="CartaoDoMenbro"> #Alane
+        <div class="CartaoDoMenbro">
             <button class="botaomenbro" onclick="InfoMenbro('InfoAlane')">📈 Alane</button>
 
             <div id="InfoAlane" class="container-detalhe" style="display: none;">
@@ -181,15 +181,18 @@
 
        <!-- Código -->
         <script>
-                function InfoMenbro(containerdetalhe) {
-                    let detalhe = document.getElementById(containerdetalhe);
+                function InfoMenbro(idInfo) {
+            let detalhe = document.getElementById(idInfo);
 
-                    if (detalhe.style.display === "none") {detalhe.style.display = "block";}
-                        else {detalhe.style.display = "none"}
-                }
+            if (detalhe.style.display === "none") {
+                detalhe.style.display = "block";
+            } else {
+                detalhe.style.display = "none";
+            }
+            }
         </script>
 
-    #///////PARTE DOS PROJETOS//////
+    <!-- PARTE DOS PROJETOS -->
     <div class="container">
         <h2>Nossos projetos</h2>
         <h3>Conheça as nossas principais iniciativas voltadas para a automação sustentável e tecnológica.</h3>
