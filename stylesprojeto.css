@@ -74,3 +74,12 @@ p {
     font-size: 0.95rem;
     line-height: 1.6;
     margin-bottom: 16px;}
+
+ul {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 20px;}
+
+li {
+    margin-bottom: 8px;}
