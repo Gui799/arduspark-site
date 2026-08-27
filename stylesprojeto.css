@@ -83,3 +83,19 @@ ul {
 
 li {
     margin-bottom: 8px;}
+
+
+.btn-voltar {
+    display: inline-block;
+    background-color: #755439;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color 0.3s;}
+
+.btn-voltar:hover {
+    background-color: #5c412b;}   
