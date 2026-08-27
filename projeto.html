@@ -40,6 +40,22 @@
             <li><strong>Resistores e Protoboard:</strong> Garantem a distribuição segura da corrente elétrica nas conexões.</li>
             <li><strong>Jumpers:</strong> Fios de ligação que fecham o circuito.</li>
         </ul>
+        <img src="Imagens Projeto/circuitofoto.png" alt="circuitofoto">
+    </div>
+
+    <div class="container">
+        <h3>Como funciona na prática? (A Lógica do Sistema)</h3>
+        <p>O sensor lê valores analógicos que variam conforme a quantidade de água na terra. O nosso código do Arduino foi programado para dividir essa leitura em três cenários principais:</p>
+        <div class="ladoalado">
+            <img src="Imagens Projeto/codigonotefoto.png" alt="notebook" width="600">
+            <ul>
+            <li><strong>Solo Úmido (Valor menor ou igual a 300):</strong> O LED verde acende, indicando que a terra está em ótimas condições hídricas.</li>
+            <li><strong>Umidade Média (Valor entre 301 e 699):</strong> O LED amarelo acende, sinalizando um estado de atenção ou transição.</li>
+            <li><strong>Solo Seco (Valor maior ou igual a 700):</strong> O LED vermelho acende e o buzzer é acionado imediatamente com um alerta sonoro, indicando escassez crítica de água ou necessidade de intervenção.</li>
+            </ul>
+            <br>
+            
+        </div>
     </div>
 </body>
 </HTml>
