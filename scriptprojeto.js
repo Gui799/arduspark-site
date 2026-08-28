@@ -3,7 +3,8 @@ document.addEventListener( "DOMContentLoaded", function () {
     const ValorUmidade = document.getElementById("ValorUmidade");
     const ImagemCircuito = document.getElementById("ImagemCircuito");
     const UmiStatus = document.getElementById("UmiStatus")
-    
+    const SomBuzzer = document.getElementById("SomBuzzer")
+
     BtnTestar.addEventListener("click", function () {
         const valor = Number(ValorUmidade.value);
 
@@ -26,6 +27,7 @@ document.addEventListener( "DOMContentLoaded", function () {
             ImagemCircuito.src = "Imagens Projeto/CircuitoLedVermelha.png";
             UmiStatus.textContent = "Nenhuma sinal de umidade foi dectado, sem sinals de chuvas.";
             UmiStatus.style.color = "#10921b";
+            SomBuzzer.play();
         }
     });
 });
