@@ -131,3 +131,19 @@ html {
     border-radius: 8px;
     text-align: center;
 }
+
+.simulador-container label {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: rgb(85, 141, 93);
+    display: block;
+    margin-bottom: 8px;
+}
+
+.simulador-container input {
+    border: 2px solid #755439;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
