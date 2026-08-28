@@ -19,7 +19,7 @@ document.addEventListener( "DOMContentLoaded", function () {
 
         else if (valor > 300 && valor < 700) {
             ImagemCircuito.src = "Imagens Projeto/CircuitoLedAmerela.png"
-            UmiStatus.textContent = "A umidade solo é de nível médio. Sinal de possível chuva, atenção!"
+            UmiStatus.textContent = "A umidade do solo é de nível médio. Sinal de possível chuva, atenção!"
             UmiStatus.style.color = "#b8860b";
         }
 
