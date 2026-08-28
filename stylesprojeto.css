@@ -27,6 +27,13 @@ body{
 
 .containerdestaque img {max-width: 100%; height: auto; border-radius: 8px;}
 
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+
 .containermencao{
     background-color: rgb(42, 78, 31);
     padding: 20px;
