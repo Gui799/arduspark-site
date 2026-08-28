@@ -106,3 +106,15 @@ li {
 
 .btn-voltar:hover {
     background-color: #5c412b;}   
+
+@media (max-width: 768px) {
+        .ladoalado {
+        flex-direction: column;
+        align-items: center;
+     }
+    
+        .ladoalado img {
+        width: 100%;
+        max-width: 100%;
+        }
+    }
