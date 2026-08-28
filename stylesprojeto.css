@@ -122,3 +122,12 @@ li {
 html {
         scroll-behavior: smooth;
     }
+
+.simulador-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 2px dashed gray;
+    border-radius: 8px;
+    text-align: center;
+}
