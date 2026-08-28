@@ -96,14 +96,14 @@
         margin-bottom: 10px
         }
 
-        @media (max-width: 768px) {
-    .ladoalado {
+    @media (max-width: 768px) {
+        .ladoalado {
         flex-direction: column;
         align-items: center;
-    }
+     }
     
-    .ladoalado img {
+        .ladoalado img {
         width: 100%;
         max-width: 100%;
+        }
     }
-}
