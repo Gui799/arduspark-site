@@ -147,3 +147,13 @@ html {
     font-family: 'Poppins', sans-serif;
 
 }
+
+.simulador-container button {
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    border: 3px double #755439;
+    background-color: bisque;
+    
+    transition: background-color 0.3s;
+}
+.simulador-container button:hover {background-color: rgb(214, 193, 167);}
